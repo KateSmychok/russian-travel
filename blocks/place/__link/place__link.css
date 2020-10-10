@@ -4,11 +4,7 @@
   font-style: normal;
   line-height: 22px;
   color: #fff;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
-.place__link:hover {
-  text-decoration: underline;
-  opacity: 0.8;
-}
 

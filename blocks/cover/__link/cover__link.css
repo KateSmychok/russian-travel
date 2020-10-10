@@ -8,7 +8,7 @@
   align-items: center;
   position: relative;
   width: 100%;
-  height: 740px;
+  height: calc(min(1184px, 100vw) * 0.625);
 }
 
 .cover__link:before {
@@ -26,20 +26,3 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 1279px) {
-  .cover__link {
-    height: calc(100vw * 0.625);
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .cover__link {
-    height: calc(100vw * 0.625);
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .cover__link {
-    height: calc(100vw * 0.625);
-  }
-}
